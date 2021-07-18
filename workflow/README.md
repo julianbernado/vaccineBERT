@@ -3,7 +3,7 @@
 Here we outline the workflow used for our Sentiment Analysis and Topic Modelling approach. Included are some flowcharts and more extensive description below.
 
 ## Sentiment Analysis
-![sentiment analysis workflow.png]()
+![](sa_workflow.png)
 Details:
 For general information about BERT models check out [this informative article](https://towardsdatascience.com/bert-explained-state-of-the-art-language-model-for-nlp-f8b21a9b6270) or [the original BERT paper from Google](https://arxiv.org/abs/1810.04805).
 * To pre-process each Tweet, the following actions were taken:
@@ -15,7 +15,7 @@ For general information about BERT models check out [this informative article](h
 * In the case where no majority label was decided (since there are three poossible labels and three models) a random label was chosen.
 
 ## Topic Modelling
-![topic modelling workflow.png]()
+![](tm_workflow.png)
 
 Details:
 * The transformation from Tweet to vector comes from extracting the final hidden layer of the vaccineBERT model
