@@ -4,6 +4,8 @@ This Github Repo has instructions and code to use the vaccineBERT model to both 
 
 There are two ways to use the vaccineBERT model, either through a Docker container or by downloading this repo and executing the Python code directly. Executing the code directly requires you to download additional packages and a folder containing our model, so we recommend using Docker.
 
+For more detailed information about the underlying code and the workflow, [click here](https://github.com/julianbernado/vaccineBERT/tree/main/workflow).
+
 ## Using vaccineBERT with Docker (recommended)
 
 We recommend running our models using Docker as it provides a single computing environment with all of the necessary packages pre-installed, with less room for error. To do this, make sure you have [Docker installed](https://www.docker.com/get-started) and then take the following steps.
