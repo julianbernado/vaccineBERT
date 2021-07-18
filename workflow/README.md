@@ -9,7 +9,7 @@ Details:
   - All usernames were changed to the token "@USER"
   - All URLs were changed to the token "HTTPURL"
   - Emojis were removed 😔
-  - Common contractions and punctuation was standardized (e.g. ’ vs. ')
+  - Common contractions and punctuation were standardized (e.g. ’ vs. ')
   - Neither stemming nor lemmatization was done because the BERT model takes advantage of specific context described by different word forms.
 * In the case where no majority label was decided (since there are three poossible labels and three models) a random label was chosen.
 
