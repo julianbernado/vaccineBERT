@@ -13,5 +13,7 @@ To directly run the code in this repo, we have included two Jupyter notebooks, o
 1. Download and extract this repository.
 2. As the actual BERT model itself is too large to be stored here, download the models used from [this dropbox link](https://www.dropbox.com/s/1vcsqk393pp6596/model.zip?dl=0).
 3. Extract the `model` folder into the `Topic Modelling` folder within the repo and copy the folder into the `Sentiment Analysis` directory. Make sure that both folders are named "model".
-4. Copy the data you want to run calculations with into both the `Topic Modelling` and `Sentiment Analysis` folders.
+4. Copy your data into both the `Topic Modelling` and `Sentiment Analysis` folders.
 5. If your setup looks like the picture below, then you can open either of the Jupyter notebooks and follow the instructions from there!
+
+![](correct_setup.PNG)
