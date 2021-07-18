@@ -1,11 +1,10 @@
 # vaccineBERT workflow
 
-Here we outline the workflow used for our Sentiment Analysis and Topic Modelling approach. Included are some flowcharts and more extensive description below.
+Here we outline the workflow used for our Sentiment Analysis and Topic Modelling approach. Included are some flowcharts and more extensive description below. For general information about BERT models check out [this informative article](https://towardsdatascience.com/bert-explained-state-of-the-art-language-model-for-nlp-f8b21a9b6270) or [the original BERT paper from Google](https://arxiv.org/abs/1810.04805).
 
 ## Sentiment Analysis
 ![](sa_workflow.png)
 Details:
-For general information about BERT models check out [this informative article](https://towardsdatascience.com/bert-explained-state-of-the-art-language-model-for-nlp-f8b21a9b6270) or [the original BERT paper from Google](https://arxiv.org/abs/1810.04805).
 * To pre-process each Tweet, the following actions were taken:
   - All usernames were changed to the token "@USER"
   - All URLs were changed to the token "HTTPURL"
