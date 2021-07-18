@@ -28,4 +28,4 @@ To directly run the code in this repo, we have included two Jupyter notebooks, o
 4. Copy your data into both the `Topic Modelling` and `Sentiment Analysis` folders.
 5. If your setup looks like the picture below, then you can open either of the Jupyter notebooks and follow the instructions from there!
 
-![](correct_setup.PNG)
+![](proper_setup.PNG)
