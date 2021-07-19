@@ -49,9 +49,9 @@ def get_output(model_checkpoint, data):
     return predictions
 
 def get_sentiment_predictions(data):
-    vaccineBERT_output = get_output("./model/vaccineBert_SA", data)
-    twitter_roberta_output = get_output("./model/twitter-roberta_SA", data)
-    bertweet_covid19_output = get_output("./model/bertweet-covid19-base-uncased_SA", data)
+    vaccineBERT_output = get_output("../model/vaccineBert_SA", data)
+    twitter_roberta_output = get_output("../model/twitter-roberta_SA", data)
+    bertweet_covid19_output = get_output("../model/bertweet-covid19-base-uncased_SA", data)
 
     from random import randint
     from random import seed
