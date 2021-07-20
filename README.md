@@ -6,6 +6,8 @@ There are two ways to use the vaccineBERT model, either through a Docker contain
 
 For more detailed information about the underlying code and the workflow, [click here](https://github.com/julianbernado/vaccineBERT/tree/main/workflow).
 
+The data used in our original analysis can be [found here](https://www.dropbox.com/s/ozycuaa3p8ycgrw/all_tweets.csv?dl=0).
+
 ## Using vaccineBERT with Docker (recommended)
 
 We recommend running our models using Docker as it provides a single computing environment with all of the necessary packages pre-installed, with less room for error. To do this, make sure you have [Docker installed](https://www.docker.com/get-started) and then take the following steps.
