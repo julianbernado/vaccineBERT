@@ -6,7 +6,7 @@ There are two ways to use the vaccineBERT model, either through a Docker contain
 
 For more detailed information about the underlying code and the workflow, [click here](https://github.com/julianbernado/vaccineBERT/tree/main/workflow).
 
-The data used in our original analysis can be [found here](https://www.dropbox.com/s/ozycuaa3p8ycgrw/all_tweets.csv?dl=0).
+The data used in our original analysis can be [found here](https://www.dropbox.com/s/ozycuaa3p8ycgrw/all_tweets.csv?dl=0). Our research question was: "How has the conversation on Twitter surrounding the COVID-19 vaccine changed from January 2021 to May 2021?"
 
 ## Using vaccineBERT with Docker (recommended)
 
